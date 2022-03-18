@@ -1,8 +1,9 @@
 public class Magic {
 	public static void main(String[] args) {
 
-		int myNumber = 3;
+    int myNumber = 3;
     //myNumber will be referred to as the "original" number form here forward
+		
     int stepOne = 3 * myNumber;
     int stepTwo = stepOne + myNumber;
     int stepThree = stepTwo / myNumber;
